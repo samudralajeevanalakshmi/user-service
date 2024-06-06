@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: revhire-user
-          image: acrteam4.azurecr.io/samudralajeevanalakshmiuserservice:v1.0  # Use the Git tag as the image version
+          image: acrteam4.azurecr.io/samudralajeevanalakshmiuserservice  # Use the Git tag as the image version
           env:
             - name: DB_URL
               valueFrom: 
